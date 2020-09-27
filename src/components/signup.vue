@@ -143,7 +143,7 @@ export default {
       // let parsed = JSON.stringify(this.row);
       // localStorage.setItem(this.moboremail, parsed);
       localStorage.setItem("instausers",JSON.stringify(this.users));
-        this.$router.push({path: '/signup'})
+        this.$router.push({path: '/home'})
 
     }
   }
